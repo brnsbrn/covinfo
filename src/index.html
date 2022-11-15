@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Covinfo</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #DEF5E5;">
+    <header>
+        <div class="text-center text-light p-4">
+            <h1 class="fw-bold fs-1">Covinfo</h1>
+        </div>
+    </header>
+    <nav-bar></nav-bar>
+
+    <center>
+        <div class="opening mt-lg-5">
+            <h1 style="color: black;">Realtime Covid-19 Report</h1>
+        </div>
+        <div class="last-update"></div>
+    </center>
+    <div class="container">
+        <div class="card mb-3 mt-3" id="global">
+            <div class="card-body">
+                <center>
+                    <h2>GLOBAL CASES</h2>
+                </center>
+
+                <div class="row mt-3">
+                    <div class="col-md-4">
+                        <div class=" card positif-header text-white mb-3 inline" style="max-width: 16rem;">
+                            <center>
+                                <div class="card-header">
+                                    <span class="foto"><img src="src\images\virus.png" alt="">
+                                    </span>
+                                </div>
+                                <div class=" card-body black">
+                                    <div id class="positif">
+                                        <h6 class="card-title">POSITIF</h6>
+                                        <h5 class="global-positive"></h5>
+                                        <h6>Orang</h6>
+                                    </div>
+                                </div>
+                        </div>
+
+                    </div>
+                    <div class="div col-md-4">
+                        <center>
+                            <div class=" card text-white mb-3style="max-width: 16rem;">
+                                <div class="card-header">
+
+                                    <span class="foto"><img src="src\images\dead.png" alt="">
+                                    </span>
+
+                                </div>
+                                <div class=" card-body black">
+                                    <div id class="negatif">
+                                        <h6 class="card-title">MENINGGAL</h6>
+                                        <h5 class="global-deaths"></h5>
+                                        <h6>Orang</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                    <div class="div col-md-4">
+                        <center>
+                            <div class=" card text-white mb-3" style="max-width: 16rem;">
+                                <div class="card-header">
+
+                                    <span class="foto"><img src="src\images\sehat.png" alt="">
+                                    </span>
+
+                                </div>
+                                <div class=" card-body black">
+                                    <div id class="sembuh">
+                                        <h6 class="card-title">SEMBUH</h6>
+                                        <h5 class="global-healed"></h5>
+                                        <h6>Orang</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <div class="card mb-3 mt-3" id="indo">
+            <div class="card-body ">
+                <center>
+                    <h2>KASUS DI INDONESIA HARI INI</h2>
+                </center>
+
+                <div class=" row mt-3">
+                    <div class="col-md-4">
+                        <div class=" card text-white mb-3 inline" style="max-width: 16rem;">
+                            <center>
+                                <div class="card-header">
+                                    <span class="foto"><img src="src\images\virus.png" alt="">
+                                    </span>
+
+                                </div>
+                                <div class=" card-body black">
+                                    <div id class="positif">
+                                        <h6 class="card-title">POSITIF</h6>
+                                        <h5 class="indo-positive"></h5>
+                                        <h6>Orang</h6>
+
+                                    </div>
+
+                                </div>
+                        </div>
+
+                    </div>
+                    <div class="div col-md-4">
+                        <center>
+                            <div class=" card text-white mb-3 " style="max-width: 16rem;">
+                                <div class="card-header">
+
+                                    <span class="foto"><img src="src\mages\dead.png" alt="">
+                                    </span>
+
+                                </div>
+                                <div class=" card-body black">
+                                    <div id class="negatif">
+                                        <h6 class="card-title">MENINGGAL</h6>
+                                        <h5 class="indo-deaths"></h5>
+                                        <h6>Orang</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                    <div class="div col-md-4">
+                        <center>
+                            <div class=" card text-white mb-3 " style="max-width: 16rem;">
+                                <div class="card-header">
+
+                                    <span class="foto"><img src="src\images\sehat.png" alt="">
+                                    </span>
+
+                                </div>
+                                <div class=" card-body black">
+                                    <div id class="sembuh">
+                                        <h6 class="card-title">SEMBUH</h6>
+                                        <h5 class="indo-healed"></h5>
+                                        <h6>Orang</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="new-update"></div>
+            </center>
+        </div>
+    </div>
+    <footer>
+        <p>Muhammad Sabran &#169; 2022, Institut Teknologi Kalimantan</p>
+    </footer>
+</body>
+
+</html>
